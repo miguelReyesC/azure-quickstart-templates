@@ -23,7 +23,7 @@ steps:
   inputs:
     deploymentScope: 'Resource Group'
     azureResourceManagerConnection: 'crud-connection'
-    subscriptionId: '<your-subscription-id>'
+    subscriptionId: '0ab23e91-d458-462e-8866-3020007d19af'
     action: 'Create Or Update Resource Group'
     resourceGroupName: 'crud-miguel-reyes'
     location: '<your-closest-location>'
