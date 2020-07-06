@@ -26,7 +26,7 @@ steps:
     subscriptionId: '0ab23e91-d458-462e-8866-3020007d19af'
     action: 'Create Or Update Resource Group'
     resourceGroupName: 'crud-miguel-reyes'
-    location: '<your-closest-location>'
+    location: 'westus'
     templateLocation: 'Linked artifact'
     csmFile: '$(Build.ArtifactStagingDirectory)/azuredeploy.json'
     csmParametersFile: '$(Build.ArtifactStagingDirectory)/azuredeploy.parameters.json'
